@@ -20,5 +20,5 @@ func main() {
 	})
 
 	// Starting server
-	log.Fatal(http.ListenAndServe(":8081", nil))
+	log.Fatal(http.ListenAndServe(":8001", nil))
 }
